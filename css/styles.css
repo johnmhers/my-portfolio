@@ -525,15 +525,16 @@ nav {
 
 /* Mobile responsive adjustments */
 @media (max-width: 768px) {
-  .contact-form input {
+  .contact-form  {
     flex-direction: column;
+    gap:12x;
     align-items: stretch;
   }
- .contact-form input,
+  .contact-form input,
   .contact-form textarea,
   .contact-form button {
-    width: 100%;
-    flex: 1 1 100%;
+    width: 100% ;
+     box-sizing: border-box;
   }
 }
 }
