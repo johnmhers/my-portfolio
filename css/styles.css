@@ -463,4 +463,51 @@ nav {
   .portfolio__banner {
     grid-template-columns: repeat(3, 1fr);
   }
+  .contact {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  color: #fff;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(45deg, #feb47b, #ff7e5f);
+}
+  
 }
